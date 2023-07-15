@@ -63,7 +63,7 @@ nav a {
 /* header related styles */
 .header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-image: url('../images/header_bg.png'), url('../images/de00000000veloper.png');
     background-repeat: no-repeat;
     background-position: bottom right, top left;
 }
@@ -227,7 +227,14 @@ textarea {
     }
     
     nav,
-    nav > ul,
+    nav > ul{
+        flex-direction: row;
+        margin: 10px;
+    }
+    nav > ul {
+        gap: 0px;
+    }
+    
     .banner,
     .skills-container,
     .resume-container,
